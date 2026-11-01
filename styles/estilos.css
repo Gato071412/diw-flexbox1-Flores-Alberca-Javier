@@ -1,5 +1,6 @@
 /* Realizado por Javier Flores */
 
+/* BODY Y ENLACES */
 html, body{
     height: 100%; /*El flex siempre ocupara el 100% de la página*/
     margin: 0;
@@ -11,6 +12,20 @@ body{
     background-color: #f4f6f9;
 }
 
+a:link {
+    color: #ffffff;
+}
+
+.menu__enlace:link{
+    text-decoration: none;
+}
+
+.menu__enlace:hover{
+    font-weight: bold;
+    border-bottom: 2px solid #f0a500;
+}
+
+/* CABECERA Y PIE*/
 .cabecera{
     display: flex;
     background-color: #1b314a;
@@ -37,6 +52,7 @@ body{
     list-style: none;    /*Hace que las listas estén en línea*/
 }
 
+/* PRINCIPAL */
 .principal{
     display: flex;
     justify-content: center;
@@ -44,15 +60,3 @@ body{
     flex: 1; /*Como el flex ocupa el 100% de la página esto baja el footer */
 }
 
-a:link {
-    color: #ffffff;
-}
-
-.menu__enlace:link{
-    text-decoration: none;
-}
-
-.menu__enlace:hover{
-    font-weight: bold;
-    border-bottom: 2px solid #f0a500;
-}
