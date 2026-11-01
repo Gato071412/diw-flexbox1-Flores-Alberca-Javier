@@ -1,3 +1,5 @@
+/* Realizado por Javier Flores*/
+
 .cabecera{
     display: flex;
     background-color: #1b314a;
@@ -16,4 +18,10 @@
     align-items: center;
     padding: 1rem 2rem;
     color: #ffffff;
+}
+
+.menu__lista, .pie__lista {
+    display: flex;
+    gap: 1.5rem;          
+    list-style: none;    /*Hace que las listas estén en línea*/
 }
