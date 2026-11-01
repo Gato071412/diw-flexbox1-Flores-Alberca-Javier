@@ -1,7 +1,7 @@
-.cabecera{
+.cabecera .pie{
     display: flex;
+    background-color: #1b314a;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
-.pie{
-    display: flex;
-}
