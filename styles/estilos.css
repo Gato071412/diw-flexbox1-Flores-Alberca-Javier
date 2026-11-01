@@ -52,6 +52,15 @@ a:link {
     list-style: none;    /*Hace que las listas estén en línea*/
 }
 
+.cabecera__marca{
+    font-weight: bold;
+    font-size: large;
+}
+
+.pie__texto{
+    font-variant: small-caps;
+}
+
 /* PRINCIPAL */
 .principal{
     display: flex;
