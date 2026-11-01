@@ -1,4 +1,15 @@
-/* Realizado por Javier Flores*/
+/* Realizado por Javier Flores */
+
+html, body{
+    height: 100%; /*El flex siempre ocupara el 100% de la página*/
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column; /*Como ocupa el 100% de página y esta en columna pone el footer abajo*/
+    background-color: #f4f6f9;
+}
 
 .cabecera{
     display: flex;
@@ -24,4 +35,11 @@
     display: flex;
     gap: 1.5rem;          
     list-style: none;    /*Hace que las listas estén en línea*/
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    color: #1b314a;
+    flex: 1; /*Como el flex ocupa el 100% de la página esto baja el footer */
 }
