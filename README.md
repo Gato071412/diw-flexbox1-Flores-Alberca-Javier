@@ -2,3 +2,6 @@ Inicialmente busque hacer las flexbox lo más parecidas a lo mencionado en la pr
 
 Una vez conseguido esto gracias a las propiedades del "display: Flex" busco la manera de hacer que el footer se mantenga abajo, modificando el texto principal (main) durante parte del proceso.
 Logro hacer lo anterior modificando el body general para convertirlo en una columna "dividida" en tres partes, llevando el footer hacía el fondo.
+
+Con las dos anteriores hechas prácticamente todo esta completado, solamente faltaría modificar la apariencia de los enlaces y las frases siendo esto más estetico. 
+Iniciando por los enlaces, modificamos el como se ven cuando están "flotando" y cuando no, debido a que no habrá cambio cuando sean visitadas

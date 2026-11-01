@@ -43,3 +43,16 @@ body{
     color: #1b314a;
     flex: 1; /*Como el flex ocupa el 100% de la página esto baja el footer */
 }
+
+a:link {
+    color: #ffffff;
+}
+
+.menu__enlace:link{
+    text-decoration: none;
+}
+
+.menu__enlace:hover{
+    font-weight: bold;
+    border-bottom: 2px solid #f0a500;
+}
