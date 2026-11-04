@@ -7,3 +7,6 @@ Con las dos anteriores hechas prácticamente todo esta completado, solamente fal
 Iniciando por los enlaces, modificamos el como se ven cuando están "flotando" y cuando no, debido a que no habrá cambio cuando sean visitadas
 
 Finalmente añadí más peso a la marca de cabecera y puse el texto del pie como variante de smalls caps aunque realmente no este así en el html por simple estetica
+----------------------------------------------------------------------------------------------------------------
+
+Vamos con la parte B, añadiendo primeramente esta al git
