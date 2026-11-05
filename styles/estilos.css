@@ -1,15 +1,20 @@
 /* Realizado por Javier Flores */
 
+/* PALETA
+Cabecera,pie,titulos,principal     #12355b
+Fondo de página                    #f4f6f9
+Fondo tarjetas                     #ffffff
+Texto                              #1b1b1b
+Texto de ayuda                     #4a5568
+Borde de controles                 #5b6b7f
+Borde de tarjetas                  #b7c0cc
+Campo inválido                     #b3261e
+Foco                               #0a5bd3 y #ffd166
+
 /* BODY Y ENLACES */
-html, body{
-    height: 100%; /*El flex siempre ocupara el 100% de la página*/
-    margin: 0;
-}
 
 body{
-    display: flex;
-    flex-direction: column; /*Como ocupa el 100% de página y esta en columna pone el footer abajo*/
-    background-color: #f4f6f9;
+   background-color: #f4f6f9;
 }
 
 a:link {
@@ -28,7 +33,7 @@ a:link {
 /* CABECERA Y PIE*/
 .cabecera{
     display: flex;
-    background-color: #1b314a;
+    background-color: #12355b;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +43,7 @@ a:link {
 
 .pie{
     display: flex;
-    background-color: #1b314a;
+    background-color: #12355b;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -63,9 +68,18 @@ a:link {
 
 /* PRINCIPAL */
 .principal{
-    display: flex;
-    justify-content: center;
-    color: #1b314a;
-    flex: 1; /*Como el flex ocupa el 100% de la página esto baja el footer */
+    justify-self: center;
+    width: 100%;
+    max-width: 72rem;
+    padding: 1.5rem 5% 2rem;
+    color: #12355b;
 }
 
+.contenido{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.campo{
+    display: grid;
+}
