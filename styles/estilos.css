@@ -77,9 +77,57 @@ a:link {
 
 .contenido{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    align-items: start;
 }
 
 .campo{
     display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+}
+
+.ayuda{
+    background-color: #ffffff;
+    border: 1px solid #b7c0cc;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    color: #1b1b1b;
+}
+
+.ayuda__titulo {
+    font-size: 1.25rem;
+    color: #12355b; 
+    margin-top: 0;
+}
+
+.ayuda__lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 1rem;
+}
+
+.ayuda__paso {
+    display: grid;
+    grid-template-columns: 2rem 1fr; 
+    align-items: start;
+    gap: 1rem;
+}
+
+.ayuda__numero {
+    display: grid;
+    place-items: center;
+    background-color: #12355b; 
+    color: #ffffff;
+    height: 2rem;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.ayuda__texto {
+    margin: 0;
+    color: #4a5568; 
 }

@@ -11,3 +11,5 @@ Finalmente añadí más peso a la marca de cabecera y puse el texto del pie como
 
 Vamos con la parte B, añadiendo primeramente esta al git
 Con la explicación del profesor me doy cuenta que efectivamente hice cualquier cosa, por lo que cambio el html body que tenía y el principal de igual manera para poder tener todo recto.
+
+Tras reajustar todo una vez más y hacer las bases de las clases "contenido" y "campo", decido ir a ajustar la clase de "hijos" con todos los hijos de esta clase
