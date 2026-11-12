@@ -280,3 +280,80 @@ textarea.campo__control {
     border: 2px solid #12355b;
     color: #ffffff;
 }
+
+/*GRIDS A PARTIR DE 40em*/
+@media (min-width: 40em) {
+    .grupo__campos {
+        grid-template-columns: repeat(6, 1fr);
+        row-gap: 1rem;
+        column-gap: 1.5rem;
+    }
+
+    /* Datos personales */
+    .grupo--personales .grupo__campos {
+        grid-template-areas:
+            "nombre nombre apellidos apellidos apellidos apellidos"
+            "correo correo correo telefono telefono telefono"
+            "nacimiento nacimiento . . . .";
+    }
+    .campo--nombre { grid-area: nombre; }
+    .campo--apellidos { grid-area: apellidos; }
+    .campo--correo { grid-area: correo; }
+    .campo--telefono { grid-area: telefono; }
+    .campo--nacimiento { grid-area: nacimiento; }
+
+    /* Datos académicos */
+    .grupo--academicos .grupo__campos {
+        grid-template-areas:
+            "ciclo ciclo ciclo curso curso curso"
+            "nota nota idiomas idiomas idiomas idiomas";
+    }
+    .campo--ciclo { grid-area: ciclo; }
+    .campo--curso { grid-area: curso; }
+    .campo--nota { grid-area: nota; }
+    .campo--idiomas { grid-area: idiomas; }
+
+    /* Preferencias de destino */
+    .grupo--destino .grupo__campos {
+        grid-template-areas:
+            "pais pais pais incorporacion incorporacion incorporacion"
+            "duracion duracion duracion duracion duracion duracion";
+    }
+    .campo--pais { grid-area: pais; }
+    .campo--incorporacion { grid-area: incorporacion; }
+    .campo--duracion { grid-area: duracion; }
+
+    /* Motivación y documentos */
+    .grupo--motivacion .grupo__campos {
+        grid-template-areas:
+            "carta carta carta carta carta carta"
+            "curriculum curriculum curriculum curriculum curriculum curriculum";
+    }
+    .campo--carta { grid-area: carta; }
+    .campo--curriculum { grid-area: curriculum; }
+
+    /* Pie de carta */
+    .campo__pie {
+        grid-template-columns: 1fr auto;
+        align-items: baseline;
+        gap: 1rem;
+    }
+
+    /* Botonera */
+    .botonera {
+        grid-template-columns: auto 1fr auto auto;
+        align-items: center;
+    }
+
+    .boton {
+        width: auto;
+    }
+
+    .boton--secundario {
+        grid-column: 3;
+    }
+
+    .boton--principal {
+        grid-column: 4;
+    }
+}
