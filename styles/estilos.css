@@ -66,29 +66,9 @@ a:link {
     font-variant: small-caps;
 }
 
-/* PRINCIPAL */
-.principal{
-    justify-self: center;
-    width: 100%;
-    max-width: 72rem;
-    padding: 1.5rem 5% 2rem;
-    color: #12355b;
-}
+/* ASIDE (Y parte de los formularios)*/
 
-.contenido{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 2rem;
-    align-items: start;
-}
-
-.campo{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0.35rem;
-}
-
-.ayuda{
+.ayuda, .grupo{
     background-color: #ffffff;
     border: 1px solid #b7c0cc;
     border-radius: 0.5rem;
@@ -130,4 +110,54 @@ a:link {
 .ayuda__texto {
     margin: 0;
     color: #4a5568; 
+}
+
+/* PRINCIPAL */
+.principal{
+    justify-self: center;
+    width: 100%;
+    max-width: 72rem;
+    padding: 1.5rem 5% 2rem;
+    color: #12355b;
+}
+
+.contenido{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    order: 3 1;
+    gap: 2rem;
+    align-items: start;
+}
+
+/* FORMULARIOS */
+
+.campo{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    
+}
+
+.grupo {
+    background-color: #ffffff;
+    border: 1px solid #b7c0cc;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin: 0;
+    color: #1b1b1b;
+    min-width: 0;
+}
+
+.grupo__titulo {
+    color: #12355b;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0 0.5rem;
+}
+
+.grupo__campos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
 }
