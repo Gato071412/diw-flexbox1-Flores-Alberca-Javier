@@ -24,3 +24,13 @@ Añadimos paleta de colores en root y actualizamos todo el resto
 
 Procedemos a añadir las sombras y relieves en formularios y cabecera
 Ahora pasamos a botones añadiendo relieve y sombra directamente para el principal, mientras que en el secundario y dedicado a borrar hemos añadido el color de texto secundario añadido en las variables
+
+Ahora vamos al degradado donde tal como se indica debemos de anotar el proceso de medición y demás aquí, por eso mismo iré por puntos:
+- Primero darme cuenta que cabecera y pie son idénticos y agruparlos, también configuramos para que los enlaces sean blancos
+- Colocamos la gradiente
+- Abrimos la página y con la inspección de elementos en styles podemos ir al color de texto (#ffffff) y compararlo (contrast ratio) con otros colores de nuestro texto.
+- En mi caso he comparado con el fondo en izquierda (Color más oscuro), medio (color intermedio) y derecho (Color más claro) dando los siguientes valores:
+- - Izquierda: C.R 12.45, AA 4,5
+- - Centro: C.R 10.23, AA 4,5
+- - Derecha: C.R 8.19, AA 4,5
+Por lo que es correcto el contraste

@@ -30,7 +30,13 @@ a:link {
     color: var(--fondo-tarjetas);
 }
 
-.menu__enlace:link{
+.menu__enlace, .pie__enlace{
+    color: var(--fondo-tarjetas);
+    text-decoration: none;
+}
+
+.menu__enlace:link, .pie__enlace:link{
+    color: var(--fondo-tarjetas);
     text-decoration: none;
 }
 
@@ -40,7 +46,7 @@ a:link {
 }
 
 /* CABECERA Y PIE*/
-.cabecera{
+.cabecera, .pie{
     display: flex;
     background-color: var(--principal);
     flex-direction: row;
@@ -48,16 +54,7 @@ a:link {
     align-items: center;
     padding: 1rem 2rem;
     color: var(--fondo-tarjetas);
-}
-
-.pie{
-    display: flex;
-    background-color: var(--principal);
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    color: var(--fondo-tarjetas);
+    background-image: linear-gradient(to right, var(--principal), var(--color-degradado));
 }
 
 .menu__lista, .pie__lista {
