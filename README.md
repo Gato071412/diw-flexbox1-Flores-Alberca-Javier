@@ -22,4 +22,5 @@ Ahora si, procedo a hacer todos los grids correspondientes
 
 Añadimos paleta de colores en root y actualizamos todo el resto
 
-Procedemos a añadir las sombras y relieves
+Procedemos a añadir las sombras y relieves en formularios y cabecera
+Ahora pasamos a botones añadiendo relieve y sombra directamente para el principal, mientras que en el secundario y dedicado a borrar hemos añadido el color de texto secundario añadido en las variables

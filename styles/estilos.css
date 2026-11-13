@@ -262,6 +262,7 @@ textarea.campo__control {
     gap: 1rem;
 }
 
+/* Botones */
 .boton {
     min-height: 2.75rem;
     font: inherit;
@@ -271,13 +272,31 @@ textarea.campo__control {
     cursor: pointer;
     width: 100%;
     box-sizing: border-box;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, transform 0.2s;
 }
 
-.boton--borrar {
-    background-color: var(--fondo-tarjetas);
-    border: 2px solid var(--borde-controles);
-    color: var(--color-texto);
+.boton:hover, .boton:focus-visible {
+    transform: translateY(-0.125rem);
 }
+
+/*Botón Principal*/
+
+.boton--principal {
+    background-color: var(--principal);
+    border: 2px solid var(--principal);
+    color: var(--fondo-tarjetas);
+    box-shadow: 0 0.125rem 0.25rem var(--color-texto-ayuda);
+}
+
+.boton--principal:active {
+    box-shadow: 0 0.0125rem 0.025rem var(--color-texto-ayuda);
+}
+
+.boton--principal:hover,.boton--principal:focus-visible {
+    background-color: var(--color-hover-principal);
+}
+
+/*Botón Secundario*/
 
 .boton--secundario {
     background-color: var(--fondo-tarjetas);
@@ -285,10 +304,19 @@ textarea.campo__control {
     color: var(--principal);
 }
 
-.boton--principal {
-    background-color: var(--principal);
-    border: 2px solid var(--principal);
-    color: var(--fondo-tarjetas);
+.boton--secundario:hover,.boton--secundario:focus-visible {
+    background-color: var(--color-hover-secundario);
+}
+
+/*Botón borrar*/
+.boton--borrar {
+    background-color: var(--fondo-tarjetas);
+    border: 2px solid var(--borde-controles);
+    color: var(--color-texto);
+}
+
+.boton--borrar:hover,.boton--borrar:focus-visible {
+    background-color: var(--color-hover-secundario);
 }
 
 /*GRIDS A PARTIR DE 40em*/
