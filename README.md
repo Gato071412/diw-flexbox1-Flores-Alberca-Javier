@@ -21,3 +21,5 @@ Ahora si, procedo a hacer todos los grids correspondientes
 ----------------------------------------------------------------------------------------------------------------
 
 Añadimos paleta de colores en root y actualizamos todo el resto
+
+Procedemos a añadir las sombras y relieves

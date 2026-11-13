@@ -69,15 +69,15 @@ a:link {
 .cabecera__marca{
     font-weight: bold;
     font-size: large;
+    text-shadow: 0 0.0625rem 0.125rem var(--sombra-texto);
 }
 
 .pie__texto{
     font-variant: small-caps;
 }
 
-/* ASIDE (Y parte de los formularios)*/
-
-.ayuda, .grupo{
+/* ASIDE */
+.ayuda{
     background-color: var(--fondo-tarjetas);
     border: 1px solid var(--borde-tarjetas);
     border-radius: 0.5rem;
@@ -155,6 +155,7 @@ a:link {
     margin: 0;
     color: var(--color-texto);
     min-width: 0;
+    box-shadow: 0 0.125rem 0.5rem var(--sombra-bloque-boton);
 }
 
 .grupo__titulo {
