@@ -18,3 +18,6 @@ Ahora avanzo con los campos en si para diseñar de manera individual los campos 
 Como haremos el diseño con consultas y orientado de 40em para adelante como pide la práctica, preparo y planteo todo lo que deben de salir en opciones y botones antes de hacer los grids
 
 Ahora si, procedo a hacer todos los grids correspondientes
+----------------------------------------------------------------------------------------------------------------
+
+Añadimos paleta de colores en root y actualizamos todo el resto
