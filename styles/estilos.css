@@ -135,7 +135,6 @@ a:link {
 .contenido{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    order: 3 1;
     gap: 2rem;
     align-items: start;
 }
