@@ -111,6 +111,11 @@ a:link {
     height: 2rem;
     border-radius: 50%;
     font-weight: bold;
+    transition: transform 0.2s;
+}
+
+.ayuda__paso:hover .ayuda__numero {
+    transform: scale(1.1);
 }
 
 .ayuda__texto {

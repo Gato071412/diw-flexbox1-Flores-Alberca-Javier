@@ -34,3 +34,5 @@ Ahora vamos al degradado donde tal como se indica debemos de anotar el proceso d
 - - Centro: C.R 10.23, AA 4,5
 - - Derecha: C.R 8.19, AA 4,5
 Por lo que es correcto el contraste
+
+Y con esto finalmente pasamos a aumentar el tamaño de los círculos del aside, tan sencillo como usar un hover y un "transform scale" y modificar el original para añadir la transición de 0,2
